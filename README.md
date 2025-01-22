@@ -1,0 +1,2 @@
+# Groovy ConcurrentModificationException
+This example demonstrates a common error in Groovy when using `eachWithIndex` to iterate over a list while simultaneously modifying it.  Attempting to remove elements from the list during iteration leads to a `ConcurrentModificationException`. The solution shows safer alternatives using iterators or creating a new list.
